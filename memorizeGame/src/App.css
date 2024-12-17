@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px #999;
+  transition: all 0.2s ease;
+}
+
+.button.green {
+  background-color: green;
+}
+
+.button.red {
+  background-color: red;
+}
+
+.button.yellow {
+  background-color: yellow;
+}
+
+.button.blue {
+  background-color: blue;
+}
+
+.button.active {
+  opacity: 0.5;
+}
+
+button {
+  background-color: white;
+  color: #001f3f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
